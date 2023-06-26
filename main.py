@@ -5,7 +5,7 @@ from scipy import stats
 import matplotlib.pyplot as plt
 
 stats_2023 = StatScrape.getPage('https://www.basketball-reference.com/leagues/NBA_2023_per_game.html')
-stat = 'AST'
+stat = input("Please give stat you would like to see: ") 
 field_goals = stats_2023[stat].tolist()
 
 #Clean Data to get rid of errors

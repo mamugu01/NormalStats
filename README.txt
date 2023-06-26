@@ -5,7 +5,7 @@ Normally distributed for the 2023 NBA season. Both a Goodness of Fit Test and th
 tests are run to see if the results are consistent and they are also ran against a data sampled from a 
 Normal distribution to make sure they are correct. 
 
-To run, run the main.py file and change the stat field on line 8 to get the wanted Stat. Note, that all the 
+To run, run the main.py file and you will be prompted to enter your wanted Stat. Note, that all the 
 data is scraped from Basketball Reference stats per game and therefore the name must be consistent with the stat 
 names in the table, otherwise an error will occur.
 
@@ -15,3 +15,5 @@ field goal percentage for players in the NBA since current standards are somewha
 and below the mean, but then I realized I was just assuming the data was normally distributed. The code is meant 
 to show that the initial assumption was incorrect and that more work needs to be done on my end to come up with 
 a better metric.
+
+Partially adapted from https://analyticsindiamag.com/goodness-of-fit-python-guide/
